@@ -15,11 +15,7 @@ namespace Seti_with_GUI
             double arg = -2 * Math.PI * k / N;
             return new Complex(Math.Cos(arg), Math.Sin(arg));
         }
-        /// <summary>
-        /// Возвращает спектр сигнала
-        /// </summary>
-        /// <param name="x">Массив значений сигнала. Количество значений должно быть степенью 2</param>
-        /// <returns>Массив со значениями спектра сигнала</returns>
+        
         public static Complex[] fft(Complex[] x)
         {
             Complex[] X;
